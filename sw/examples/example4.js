@@ -1,0 +1,1 @@
+WSH.Echo("I am the 4th example")

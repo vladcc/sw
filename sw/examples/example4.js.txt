@@ -1,0 +1,8 @@
+Name: 
+example4.js
+
+Run line: 
+wscript example4.js
+
+Script: 
+WSH.Echo("I am the 4th example")

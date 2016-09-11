@@ -1,0 +1,39 @@
+Name: 
+example3.hta
+
+Run line: 
+mshta example3.hta
+
+Script: 
+<!DOCTYPE html>
+<html>
+   <head>
+   
+	<script type="text/javascript">
+	<!--
+		function main()
+		{
+			alert(document.getElementById("txtMessage").value);
+		}
+
+	 //-->
+	</script>
+
+	  <noscript>
+         Sorry...JavaScript is needed to go ahead.
+      </noscript>
+	  
+   </head>
+
+   <body>
+	   	<p> Enter something:
+		<br>
+		<input type="text" id="txtMessage" maxlength="100" />
+		<br>
+		<input type="button" id="btnOK" onclick="main()" value="OK" />
+		<br>
+		</p>
+		<!-- -->
+   </body>
+</html>
+

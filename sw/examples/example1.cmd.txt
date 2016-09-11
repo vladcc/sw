@@ -1,0 +1,10 @@
+Name: 
+example1.cmd
+
+Run line: 
+cmd /k example1.cmd
+
+Script: 
+@echo off
+cls
+echo Hello
